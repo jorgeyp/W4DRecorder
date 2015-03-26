@@ -8,3 +8,5 @@ Small NAudio recording application for Windows.
 * Amplitude level bar.
 * Save dialog.
 * Format chooser (WAV, AIFF)
+
+![W4DRecorder](https://raw.githubusercontent.com/jorgeyp/W4DRecorder/master/main.PNG)
