@@ -264,8 +264,7 @@ namespace W4DPlayer
                 // Save document 
                 filename = dlg.FileName;
             }
-
-
+            textboxSave.Text = filename;
         }
 
     }
