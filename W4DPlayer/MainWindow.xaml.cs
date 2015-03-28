@@ -114,11 +114,11 @@ namespace W4DPlayer
 
         private void createFile(WaveFormat waveFormat)
         {
-            if (comboFormat.SelectedItem.Equals("WAV"))
+            if (comboFormat.SelectedItem.Equals("AIFF"))
             {
                 aiffWriter = new AiffFileWriter(@"" + filename + ".aiff", waveFormat);
             }
-            else if (comboFormat.SelectedItem.Equals("AIFF"))
+            else if (comboFormat.SelectedItem.Equals("WAV"))
             {
                 waveWriter = new WaveFileWriter(@"" + filename + ".wav", waveFormat);
             }
